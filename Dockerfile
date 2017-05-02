@@ -20,11 +20,11 @@ RUN find / -name "libpq*"
 ENV PATH $PATH:/usr/pgsql-9.6/bin
 ENV LIBPQ_DIR /usr/pgsql-9.6/
 ENV LIBRARY_PATH /usr/pgsql-9.6/lib
-ENV PG_CPPFLAGS -I/usr/pgsql-9.6/include
+ENV PG_CPPFLAGS -I/usr/pghttp://termbin.com/29qysql-9.6/include
 ENV PKG_CONFIG_PATH /usr/pgsql-9.6/lib/pkgconfig
 ENV SHLIB_LINK -L/usr/pgsql-9.6/lib -lpq
 
-ENV PMPP_VERSION 1.2.0
+ENV PMPP_VERSION master
 
 RUN echo $PKG_CONFIG_PATH
 

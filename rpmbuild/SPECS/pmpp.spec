@@ -1,7 +1,7 @@
 %define _topdir     /rpmbuild
 %define name        pmpp
 %define release     1
-%define version     1.2.0
+%define version     master
 %define buildroot %{_topdir}/%{name}-%{version}-root
 %define pg_version  9.6
 
